@@ -20,11 +20,11 @@
                         <div class="card-body p-5"> <!--spacing inside the card-->
                             <h2 class="mb-3 d-flex justify-content-center">Grocery List</h1>
 
-                               <!--Figure out how to underline the # left to do -->   <h4 class="d-flex justify-content-center"><%= user.userName %> has <%= left %> things left to do.</h2>
+                               <!--Figure out how to underline the # left to do -->   <h4 class="d-flex justify-content-center"><%= user.userName %> has <%= left %> grocery items remaining.</h2>
 
                             <form action="/groceries/createGrocery" method='POST' class="d-flex justify-content-center align-items-center mb-4 form-horizontal">
                                 <div class="form-outline flex-fill input-group">
-                                    <input type="number" placeholder="# of items" name="itemNumber" id="form3" class="form-control form-control-md">
+                                    <input type="number" min="1" placeholder="# of items" name="itemNumber" id="form3" class="form-control form-control-md">
                                     <input type="text" placeholder="Enter Grocery Item" name='groceryItem' id="form3" class="form-control form-control-md">
                                 </div>
                                 <input type="submit" class="btn btn-primary btn-md ms-2" value="Add">
