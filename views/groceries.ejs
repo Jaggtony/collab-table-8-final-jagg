@@ -35,7 +35,9 @@
 <!--Figure out how to make it a checkbox also-->
                                             <span class="itemNumber"><%=el.quantity %></span>
                                             <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.grocery %></span>
+                                            <p>added: <span class="created_at"><%= moment(el.createdAt).format('Do MMMM, YYYY') %></span></p>
                                             <span class='del fas fa-times text-primary' href='#!' data-mdb-toggle="tooltip" title="Remove Item"></span>
+
                                         </li>
                                 <% }) %>    
                                 </ul>

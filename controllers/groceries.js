@@ -1,12 +1,16 @@
 const Grocery = require('../models/Grocery')
+const moment = require('moment')
 
-module.exports = {
+module.exports = { 
+    formatDate: (date, format) => {
+        return moment(date).format(format)
+    },
     getGroceries: async (req,res)=>{
         console.log(req.user)
         try{
             const groceryItems = await Grocery.find({userId:req.user.id})
             const itemsLeft = await Grocery.countDocuments({userId:req.user.id,completed: false})
-            res.render('groceries.ejs', {groceries: groceryItems, left: itemsLeft, user: req.user})
+            res.render('groceries.ejs', {groceries: groceryItems, left: itemsLeft, moment: moment, user: req.user})
         }catch(err){
             console.log(err)
         }
