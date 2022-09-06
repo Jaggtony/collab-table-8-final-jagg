@@ -1,3 +1,16 @@
+# Who we are: table8devs
+
+We are a group of full stack web developers, collaborating with other community-taught developers to create web sites and web applications.
+
+Rob Perry - <a href="https://github.com/robcperry">github.com/robcperry</a>
+Jon Pena - <a href="https://github.com/jonNtech">github.com/jonNtech</a>
+kurtislearned - <a href="https://github.com/kurtislearned">github.com/kurtislearned</a>
+Brooke Lee Kalman - <a href="https://github.com/BrookeLeeK">github.com/BrookeLeeK</a>
+Jacob Gonzales - <a href="https://github.com/Jaggtony">github.com/Jaggtony</a>
+Jose Espinosa Machado - <a href="https://github.com/JoseEspinosaMachado">github.com/JoseEspinosaMachado</a>
+
+---
+
 # Introduction
 
 A Simple grocery App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
@@ -22,7 +35,7 @@ A Simple grocery App is built using the MVC Architecture, we have also implement
 
 # Packages/Dependencies used 
 
-bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
+bcrypt, bootstrap, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
 
 ---
 
