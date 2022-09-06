@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const moment = require('moment')
 
 const Grocerieschema = new mongoose.Schema({
   grocery: {
@@ -17,6 +18,10 @@ const Grocerieschema = new mongoose.Schema({
     type: Number,
     required: true,
     min: 1,
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now,
   },
 })
 

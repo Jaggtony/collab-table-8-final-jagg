@@ -11,10 +11,13 @@
     <h1>Groceries</h1>
     <ul>
     <% groceries.forEach( el => { %>
-            <li class='groceryItem' data-id='<%=el._id%>'>
+            <li class='groceryItem' data-id='<%=el._id%>'>                
                 <span class="itemNumber"><%=el.quantity %></span>
+                                
                 <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.grocery %></span>
-                <span class='del'> Delete </span>
+                
+                <span class='del'> Delete - </span>
+                <span class="created_at"><%= moment(el.createdAt).format('Do, MMMM, YYYY') %></span>
             </li>
     <% }) %>    
     </ul>
@@ -30,5 +33,6 @@
     <a href="/logout">Logout</a>
 
     <script src="js/main.js"></script>
+
 </body>
 </html>
