@@ -2,12 +2,12 @@
 
 We are a group of full stack web developers, collaborating with other community-taught developers to create web sites and web applications.
 
-Rob Perry - <a href="https://github.com/robcperry">github.com/robcperry</a>
-Jon Pena - <a href="https://github.com/jonNtech">github.com/jonNtech</a>
-kurtislearned - <a href="https://github.com/kurtislearned">github.com/kurtislearned</a>
-Brooke Lee Kalman - <a href="https://github.com/BrookeLeeK">github.com/BrookeLeeK</a>
-Jacob Gonzales - <a href="https://github.com/Jaggtony">github.com/Jaggtony</a>
-Jose Espinosa Machado - <a href="https://github.com/JoseEspinosaMachado">github.com/JoseEspinosaMachado</a>
+<p>Rob Perry - <a href="https://github.com/robcperry">github.com/robcperry</a></p>
+<p>Jon Pena - <a href="https://github.com/jonNtech">github.com/jonNtech</a></p>
+<p>kurtislearned - <a href="https://github.com/kurtislearned">github.com/kurtislearned</a></p>
+<p>Brooke Lee Kalman - <a href="https://github.com/BrookeLeeK">github.com/BrookeLeeK</a></p>
+<p>Jacob Gonzales - <a href="https://github.com/Jaggtony">github.com/Jaggtony</a></p>
+<p>Jose Espinosa Machado - <a href="https://github.com/JoseEspinosaMachado">github.com/JoseEspinosaMachado</a></p>
 
 ---
 
